@@ -11,9 +11,8 @@ while True:
     except:
         print('Das not an int ya git')
 
-while True:
+while number != 1:
     number = collatz(number)
     print(number)
-    if number == 1:
-        print('Gj')
-        break
+    
+print('GJ')
